@@ -1,0 +1,116 @@
+@media (max-width: 850px){
+    .navigacija-container{
+        display: flex;
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .center-min-ekran{
+        align-self: center;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    li{
+        margin-top: 20px;
+        background-color: #1D4AFF;
+        border-radius: 25px;
+        text-align: center;
+    }
+
+    li > a{
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    /*+++++++++++++ REGISTRACIJA ++++++++++++++++++++*/
+    .sekcija-forma{
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+    }
+
+    .registracija-side{
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        height: 200px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .registracija{
+        width: 100%;
+    }
+
+    .form-dijete input{
+        padding: 0.8rem 0.8rem;
+    }
+
+    .form-dijete input[type=submit]{
+        padding: 1.1rem 1.1rem;
+    }
+
+    .vec-reg{
+        display: none;
+    }
+
+    .odjava-gumb{
+        color: white;
+        background-color: #1D4AFF;
+        font-size: 1.45rem;
+    }
+
+   /*+++++++++++++ REGISTRACIJA ++++++++++++++++++++*/
+}
+
+@media (min-width: 851px){
+    .prijava-gumb{
+        color: #1D4AFF;
+        padding: 10px 15px;
+        border: 3px solid #1D4AFF;
+        border-radius: 25px;
+    }
+    
+    li a:hover{
+        padding: 10px 15px;
+        border: 3px solid #1D4AFF;
+        transition: 0.2s ease-in;
+        border-radius: 25px;
+    }
+
+    li a{
+        transition: 0.2s ease-out;
+    }
+
+    .prijava-gumb:hover{
+        color: white;
+        background-color:#1D4AFF;
+    }
+
+    .registracija-side{
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .form-dijete input{
+        padding: 0.5rem 0.5rem;
+    }
+
+    .form-dijete input[type=submit]{
+        padding: 20px 20px;
+    }
+
+    .plava-tipka:hover{
+        background-color: #074684;
+    }
+
+    .glavni-container{
+        margin-bottom: 100px;
+    }
+
+   
+
+}

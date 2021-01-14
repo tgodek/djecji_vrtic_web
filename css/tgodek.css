@@ -1,0 +1,310 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+.glavni-container{
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+section{
+    margin: 50px auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    width: auto;
+    margin-top: 20px;
+}
+
+.plava-tipka{
+    color: white;
+    background-color: #1D4AFF;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.bijela-tipka{
+    color: #1D4AFF;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 15px 15px;
+}
+
+/*++++++++++Navigacija+++++++++++++++++*/
+.navigacija-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+li{
+    padding: 20px 10px;
+}
+
+li a{
+    color: #1D4AFF;
+    font-size: 1.1rem;
+}
+/*++++++++++Navigacija-END+++++++++++++++++*/
+
+/*++++++++++FOOTER-START+++++++++++++++++*/
+footer{
+    margin-top: 100px;
+    color: white;
+    background-image: url("../multimedija/footer.png");
+    height: 187px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+address{
+    padding: 30px 0;
+}
+address a{
+    color: white;
+    padding-left: 5px;
+}
+
+.foter-p{
+    padding: 30px 0;
+    margin: 0;
+}
+/*++++++++++FOOTER-END+++++++++++++++++*/
+
+
+/*++++++++++REGISTRACIJA-START+++++++++++++++++*/
+.sekcija-forma{
+    display: flex;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 2px rgba(94,94,94,0.75);
+}
+
+.registracija-side{
+    padding: 50px 20px;
+    width: 50%;
+    background-color: #1D4AFF;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vec-reg p{
+    padding: 5px 0;
+    font-size: 0.8rem;
+}
+
+.reg-info h2{
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.reg-info p{
+    font-size: 1.2rem;
+    line-height: 25px;
+}
+
+.bijela-tipka:hover{
+    font-weight: bold;
+    color: #074684;
+}
+
+.registracija{
+    width: 50%;
+}
+
+.form-dijete{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.form-dijete label{
+    font-weight: bold;
+    color: #646464;
+}
+
+.greska{
+    color:red;
+    display: none;
+    padding: 0 0;
+    margin: 0 0;
+}
+
+/*++++++++++REGISTRACIJA-END+++++++++++++++++*/
+
+
+
+
+/*++++++++++PRIJAVA-START+++++++++++++++++*/
+
+.sekcija-form-prijava{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 2px rgba(94,94,94,0.75);
+    padding: 10px 0;
+    margin-bottom: 280px;
+}
+
+.zab-lozinka{
+    padding-left: 20px;  
+    padding-bottom: 20px;  
+}
+.zab-lozinka a{
+    font-size: 0.8rem;
+    color: rgb(11, 44, 173);
+}
+
+.odjava-gumb{
+    color: #1D4AFF;
+    padding: 10px 15px;
+    border: 3px solid #1D4AFF;
+    border-radius: 25px;
+    background-color: white;
+    font-size: 1.05rem;
+}
+
+.odjava-gumb:hover{
+    background-color: #1D4AFF;
+    color: white;
+    transition: 0.2s ease-in;
+}
+
+.odjava-li{
+    padding: 8px 10px;
+}
+/*++++++++++PRIJAVA-END+++++++++++++++++*/
+
+
+
+/*++++++++++VRTIC-START+++++++++++++++++*/
+
+.vrtic-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.vrtic-submeni{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.vrtic-submeni a{
+    padding: 15px 15px;
+    margin-bottom: 20px;
+    background-color: #1D4AFF;
+    color: white;
+    border-radius: 25px;
+}
+
+.vrtic-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.vrtic-content h2{
+    padding: 0 20px;
+}
+
+.dropdown{
+    padding: 10px 0;
+}
+
+.popis_vrtica-container{
+    margin: 0 auto;
+}
+
+/*++++++++++VRTIC-END+++++++++++++++++*/
+
+
+/*++++++++++POPIS PRIJAVA+++++++++++++++++*/
+table{
+    border: 3px solid #1D4AFF;
+    border-radius: 10px;
+}
+
+table th{
+    font-size: 1.3rem;
+}
+
+table td{
+    font-size: 1.2rem;
+
+}
+
+.tablica,tbody{
+    text-align: center;
+}
+
+.link-prijava{
+    color: #1D4AFF;
+}
+
+.filter_style{
+    margin-bottom: 20px;
+}
+
+
+/*++++++++++OSTALO+++++++++++++++++*/
+
+.autor-container{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 260px;
+}
+
+.info{
+    width: 60%;
+}
+
+.profil{
+    width: 40%;
+    margin-right: 20px;
+}
+
+.dokumentacija_container{
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.dokumentacija_container h2{
+    text-align: center;
+}
